@@ -3,7 +3,7 @@ logs
 __pycache__
 *.pyc
 *.DS_Store
-*.ipynb
+.ipynb
 *.log
 *.sql
 !memory_schema.sql
@@ -13,3 +13,5 @@ python/craftassist/models/*
 python/craftassist/ttad/data/*
 !python/craftassist/models/.gitignore
 !python/craftassist/ttad/data/.gitignore
+.ipynb_checkpoints
+.idea/
