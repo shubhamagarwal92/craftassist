@@ -19,21 +19,21 @@ tar -zxvf house_data.tar.gz
 ## For Ubuntu
 # Glog
 # https://codeyarns.com/2017/10/26/how-to-install-and-use-glog/
-sudo apt install libgoogle-glog-dev
+apt install libgoogle-glog-dev
 
 # boost
 # https://stackoverflow.com/questions/12578499/how-to-install-boost-on-ubuntu
-sudo apt-get install libboost-all-dev
+apt-get install libboost-all-dev
 
 # Cmake
 # Check using:  cmake --version
-sudo apt install cmake
+apt install cmake
 
 gcc --version
 
 # Eigen
 # https://askubuntu.com/a/936560/995997
-sudo apt install libeigen3-dev
+apt install libeigen3-dev
 
 # For mac
 
