@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
 
-# Following the structue:
+# Following the structure:
 # -minecraft
 #    -- code
 #    -- data
 #    -- models
 
 mkdir -p ../data
-cd ../data
 
-wget https://craftassist.s3-us-west-2.amazonaws.com/pubr/dialogue_data.tar.gz
-wget https://craftassist.s3-us-west-2.amazonaws.com/pubr/instance_segmentation_data.tar.gz
-wget https://craftassist.s3-us-west-2.amazonaws.com/pubr/house_data.tar.gz
+wget https://craftassist.s3-us-west-2.amazonaws.com/pubr/dialogue_data.tar.gz -P ../data
+wget https://craftassist.s3-us-west-2.amazonaws.com/pubr/instance_segmentation_data.tar.gz -P ../data
+wget https://craftassist.s3-us-west-2.amazonaws.com/pubr/house_data.tar.gz -P ../data
 
 tar -zxvf dialogue_data.tar.gz
 tar -zxvf instance_segmentation_data.tar.gz
